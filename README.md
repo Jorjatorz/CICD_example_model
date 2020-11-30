@@ -1,5 +1,5 @@
 # Example model for the CI/CD Framework
-This repository contains an example of a possible model developed and its required interface ```main.py``` required by the [CI/CD Framework](https://github.com/Jorjatorz/CICD_framework).
+This repository contains an example of a possible model developed and its required interface ```main.py``` required by the [CI/CD Framework](https://github.com/Jorjatorz/ML_CICD_framework).
 
 For the framework to be able to use a model, the model must contain a ```main.py``` file following the same format as ```model_interface_example.py``` (instead of main.py, you can change the name of the used file in ```ML/src/config.py {MODEL_MODULE}```. This class exposes four methods:
 1. **Train**: This method gets the dataset as a parameter and should return a pickle of the trained model using this dataset.
